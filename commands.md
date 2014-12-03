@@ -44,7 +44,7 @@ fox |   open application | function (value) { return Scripts.openApplication(val
 ---
 
 Name |   Description | Actions
------------  | 
+-----------  |  --------- | --------
 . |    | Period  
 / |    | Slash  
 slash |    | Slash  
@@ -117,7 +117,7 @@ coaltwice |    | ::  
 <a href="#copyPaste">Copy/Paste</a>
 --------
 Name |   Description | Actions
------------  | 
+-----------  |  --------- | --------
 sparky |   paste the alternate clipboard | command+shift V  
 allspark |   select all then paste the clipboard | command A  command V  
 spark |   paste the clipboard | command V  
@@ -129,7 +129,7 @@ snatch |   cut whatever is selected | command X 
 <a href="#editing">Editing</a>
 --------
 Name |   Description | Actions
------------  |
+-----------  | --------- | --------
 kef |   press the delete key | option Delete  
 steffi |   delete a partial word at a time | control Delete  
 stippy |   forward delete a partial word at a time | control ForwardDelete  
@@ -152,7 +152,7 @@ derek |   moves the cursor on the way to the right than inserts a space | comman
 <a href="#languageSpecific">Language Specific</a>
 -----
 Name |   Description | Actions
------------  |
+-----------  | --------- | --------
 jocksif |   JavaScript if block | "function () { return ""if () {};""; }   Left   Left   Left   Left  Left  "
 roobifend |   ruby if end block | "function () { return ""if \nend""; }   Up  "
 roobifelse |   ruby if else block | "function () { return ""if \nelse\nend""; }   Up   Up  "
@@ -164,7 +164,7 @@ roobdovar |   "ruby do  | var |  block" | "function () { return ""do  |  | \nend
 <a href="#letters">Letters</a>
 -------
 Name |   Description | Actions
------------  |
+-----------  | --------- | --------
 arch |   Enters a single letter optionally followed by more | function (input) { return Scripts.singleLetter(key, input); }  
 brov |   Enters a single letter optionally followed by more | function (input) { return Scripts.singleLetter(key, input); }  
 char |   Enters a single letter optionally followed by more | function (input) { return Scripts.singleLetter(key, input); }  
@@ -195,7 +195,7 @@ zooch |   Enters a single letter optionally followed by more | function (input) 
 <a href="#modifiers">Modifiers</a>
 ----
 Name |   Description | Actions
------------  |
+-----------  | --------- | --------
 chompshin |   command + option | command+option
 chom |   command | command
 choff |   command + shift | command+shift
@@ -207,7 +207,7 @@ chifton |   command + option + shift | command+option+shift
 <a href="#mouse">Mouse</a>
 ------
 Name |   Description | Actions
------------  |
+-----------  | --------- | --------
 duke |   mouse double click | command+option+control+shift P  
 chipper |   mouse right click | command+option+control+shift O  
 chiff |   mouse left click | command+option+control+shift I  
@@ -216,7 +216,7 @@ shicks |   mouse shift click | command+option+control+shift A
 <a href="#movement">Movement</a>
 -------
 Name |   Description | Actions
------------  |
+-----------  | --------- | --------
 doomway |   move the cursor to the bottom of the page | command Down  
 doom |   press the down arrow | Down  
 jeepway |   move the cursor to the top of the page | command Up  
@@ -238,7 +238,7 @@ derek |   moves the cursor on the way to the right than inserts a space | comman
 <a href="#operatingSystem">Operating System</a>
 -----
 Name |   Description | Actions
------------  |
+-----------  | --------- | --------
 webs |   opens a website by name | "function (input) { return Scripts.openWebsite((input  |  |  []).join("" "")); }  "
 swick |   Switch to most recent application | "function () { return ""tell application \""System Events\""\n key code \""48\"" using {command down}\nend tell\ndelay 0.15""; }  "
 launcher |   open application launcher | option Space  
@@ -248,7 +248,7 @@ webseek |   open a new browser tab (from anywhere) | function () { return Script
 <a href="#other">Other</a>
 -----
 Name |   Description | Actions
------------  |
+-----------  | --------- | --------
 shabble |    | command [  
 shabber |    | command ] 
 creek |   repeat last command | function (input) { return Commands.previous.generated; }  
@@ -258,7 +258,7 @@ chomlug |   press escape | command L  
 <a href="#selection">Selection</a>
 -------
 Name |   Description | Actions
------------  |
+-----------  | --------- | --------
 shroom |   shift down, select text by line downward | shift Down  
 shreepway |   select all text upward | shift+command Up  
 shroomway |   select all text downward | shift+command Down  
@@ -281,7 +281,7 @@ streak |   expand selection to block | function (value) { return Scripts.selectB
 <a href="#shell">Shell</a>
 -----
 Name |   Description | Actions
------------  |
+-----------  | --------- | --------
 shelless |   list directory contents (takes dynamic arguments) | "function (input) { var options; options = _.map(input  |  |  [], function(item) { return ""keystroke \"" \""\nkey code \""27\""\nkeystroke \"""" + item + ""\""""; }).join(""\n""); return ""tell application \""System Events\""\nkeystroke \""ls \""\n"" + options + ""\nkeystroke return\nend tell""; }  "
 shellmakedir |   make a directory in the shell | mkdirspace  
 shellseedee |   change directory | cdspace  
@@ -289,7 +289,7 @@ shellseedee |   change directory | cdspace  
 <a href="#textEntry">Text Entry</a>
 -----
 Name |   Description | Actions
------------  |
+-----------  | --------- | --------
 gyping | number | a number with no space before it | 
 gypsy | number | a number with a space before it | 
 shark |   inserts a common abbreviation | "function (input) { return Scripts.insertAbbreviation((input  |  |  []).join("" "")); }  "
