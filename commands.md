@@ -23,7 +23,7 @@ Contents
 --------
 
 Name  |   Description  |  Actions
------------  | 
+-----------  | --------- | --------
 dizzle  |    undo | command Z  
 rizzle |   redo | command+shift Z  
 gibby |   Switch to next window in same application | command \`  
