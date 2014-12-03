@@ -19,7 +19,7 @@ Contents
 * [Shell](#shell)
 * [Text Entry](#textEntry)
 
-<a href="#application">Application</a>
+<a name="application">Application</a>
 --------
 
 Name  |   Description  |  Actions
@@ -40,7 +40,7 @@ swash |   opens drop-down menu by name | function (input) { return Scripts.openD
 fox |   open application | function (value) { return Scripts.openApplication(value); } 
 
 
-<a href="#charactersAndOperators">Characters and Operators</a>
+<a name="charactersAndOperators">Characters and Operators</a>
 ---
 
 Name |   Description | Actions
@@ -114,7 +114,7 @@ kirkos |    | }  
 crunder |    | _  
 coaltwice |    | ::  
 
-<a href="#copyPaste">Copy/Paste</a>
+<a name="copyPaste">Copy/Paste</a>
 --------
 Name |   Description | Actions
 -----------  |  --------- | --------
@@ -126,7 +126,7 @@ stoosh |   copy whatever is selected | command C  
 allstoosh |   select all then copy whatever is selected | command A  command C  
 snatch |   cut whatever is selected | command X 
 
-<a href="#editing">Editing</a>
+<a name="editing">Editing</a>
 --------
 Name |   Description | Actions
 -----------  | --------- | --------
@@ -149,7 +149,7 @@ shockey |   Inserts a new line above the current line | Up  command Right  �
 jolt |   will duplicate the current line | command Left  command+shift Right  command C   Right   Return  command V   
 derek |   moves the cursor on the way to the right than inserts a space | command Right   Space  
 
-<a href="#languageSpecific">Language Specific</a>
+<a name="languageSpecific">Language Specific</a>
 -----
 Name |   Description | Actions
 -----------  | --------- | --------
@@ -161,7 +161,7 @@ roobelsif |   ruby elsif | elsifspace  
 roobdewend |   ruby do end block | "function () { return ""do\nend""; }   Up  command Right   Return  "
 roobdovar |   "ruby do  | var |  block" | "function () { return ""do  |  | \nend""; }   Up  command Right   Left  "
 
-<a href="#letters">Letters</a>
+<a name="letters">Letters</a>
 -------
 Name |   Description | Actions
 -----------  | --------- | --------
@@ -192,7 +192,7 @@ trex |   Enters a single letter optionally followed by more | function (input) {
 yang |   Enters a single letter optionally followed by more | function (input) { return Scripts.singleLetter(key, input); }  
 zooch |   Enters a single letter optionally followed by more | function (input) { return Scripts.singleLetter(key, input); }  
 
-<a href="#modifiers">Modifiers</a>
+<a name="modifiers">Modifiers</a>
 ----
 Name |   Description | Actions
 -----------  | --------- | --------
@@ -204,7 +204,7 @@ troll |   control | control
 tralter |   control + option | control+option
 chifton |   command + option + shift | command+option+shift
 
-<a href="#mouse">Mouse</a>
+<a name="mouse">Mouse</a>
 ------
 Name |   Description | Actions
 -----------  | --------- | --------
@@ -213,7 +213,7 @@ chipper |   mouse right click | command+option+control+shift O  
 chiff |   mouse left click | command+option+control+shift I  
 shicks |   mouse shift click | command+option+control+shift A
 
-<a href="#movement">Movement</a>
+<a name="movement">Movement</a>
 -------
 Name |   Description | Actions
 -----------  | --------- | --------
@@ -235,7 +235,7 @@ ricky |   moves the cursor all the way to the right | command Right  
 lefty |   move the cursor all the way to the left | command Left  
 derek |   moves the cursor on the way to the right than inserts a space | command Right   Space  
 
-<a href="#operatingSystem">Operating System</a>
+<a name="operatingSystem">Operating System</a>
 -----
 Name |   Description | Actions
 -----------  | --------- | --------
@@ -245,7 +245,7 @@ launcher |   open application launcher | option Space  
 foxwitch |   open application switcher | option+control+shift+command E  
 webseek |   open a new browser tab (from anywhere) | function () { return Scripts.openWebTab(); }  
 
-<a href="#other">Other</a>
+<a name="other">Other</a>
 -----
 Name |   Description | Actions
 -----------  | --------- | --------
@@ -255,7 +255,7 @@ creek |   repeat last command | function (input) { return Commands.previous.gene
 randall |   press escape | Escape  
 chomlug |   press escape | command L  
 
-<a href="#selection">Selection</a>
+<a name="selection">Selection</a>
 -------
 Name |   Description | Actions
 -----------  | --------- | --------
@@ -278,7 +278,7 @@ lecksy |   selects all text to the left | command+shift Left  
 shackle |   selects the entire line | command Left  command+shift Right  
 streak |   expand selection to block | function (value) { return Scripts.selectBlock(); }   
 
-<a href="#shell">Shell</a>
+<a name="shell">Shell</a>
 -----
 Name |   Description | Actions
 -----------  | --------- | --------
@@ -286,7 +286,7 @@ shelless |   list directory contents (takes dynamic arguments) | "function (inpu
 shellmakedir |   make a directory in the shell | mkdirspace  
 shellseedee |   change directory | cdspace  
 
-<a href="#textEntry">Text Entry</a>
+<a name="textEntry">Text Entry</a>
 -----
 Name |   Description | Actions
 -----------  | --------- | --------
